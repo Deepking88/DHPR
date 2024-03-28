@@ -31,7 +31,7 @@ async def wish(_, m):
             
     
 BUTTON = [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/FONT_CHANNEL_01")]]
-CUTIE = "https://64.media.tumblr.com/d701f53eb5681e87a957a547980371d2/tumblr_nbjmdrQyje1qa94xto1_500.gif"
+CUTIE = "https://telegra.ph/file/18daf7e6db35d05de2813.jpg"
 
 @app.on_message(filters.command("cute"))
 async def cute(_, message):
