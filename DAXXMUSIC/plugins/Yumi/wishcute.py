@@ -19,18 +19,18 @@ async def wish(_, m):
     wish = f"๏ ʜᴇʏ {m.from_user.first_name}!"
     wish += f"\n๏ ʏᴏᴜʀ ᴡɪꜱʜ ➠ {text} "
     wish += f"\n๏ ᴘᴏꜱꜱɪʙʟᴇ ᴛᴏ ➠ {wish_count}%"
-    wish += f"\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐"
+    wish += f"\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠  [˹𝙳𝙷𝙿𝚁˼](https://t.me/OWNER_DHPR)"
     
     await app.send_animation(
         chat_id=m.chat.id,
         animation=url,
         caption=wish,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")]])
+            [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/FONT_CHANNEL_01")]])
     )
             
     
-BUTTON = [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")]]
+BUTTON = [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/FONT_CHANNEL_01")]]
 CUTIE = "https://64.media.tumblr.com/d701f53eb5681e87a957a547980371d2/tumblr_nbjmdrQyje1qa94xto1_500.gif"
 
 @app.on_message(filters.command("cute"))
