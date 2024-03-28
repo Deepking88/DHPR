@@ -6,9 +6,9 @@ from config import BOT_USERNAME
 start_txt = """
 ✦ ʜᴇʏ ᴛʜᴇʀᴇ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ᴜʜʜ !
 
-❅ ɪ ᴀᴍ ๛ɴ ʏ ᴋ ᴀ ᴀ ༗ ᴍ ᴜ s ɪ ᴄ
+❅ ɪ ᴀᴍ ʜᴇᴇʀ ᴍᴜꜱɪᴄ
 
-❅ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ๛ɴ ʏ ᴋ ᴀ ᴀ ༗ ʙᴏᴛ ʀᴇᴘᴏ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʀᴇᴘᴏ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.
+❅ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ʜᴇᴇʀ ᴍᴜꜱɪᴄ ʙᴏᴛ ʀᴇᴘᴏ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʀᴇᴘᴏ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.
 """
 
 
@@ -18,15 +18,15 @@ start_txt = """
 async def start(_, msg):
     buttons = [
         [
-          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/the_friendz"),
-          InlineKeyboardButton("ʀᴇᴘᴏ", url="https://github.com/LOCO-PILOT/ROYMUSIC"),
+          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/exampurrs"),
+          InlineKeyboardButton("ʀᴇᴘᴏ", url="https://github.com/Sareeflonda88/DHPR"),
           ],
     ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://graph.org/file/33bc093c89898dcc318ae.jpg",
+        photo="https://telegra.ph/file/9e2e83ad4bcd814a538c5.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
