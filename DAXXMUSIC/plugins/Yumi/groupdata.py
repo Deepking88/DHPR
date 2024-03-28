@@ -46,7 +46,7 @@ async def instatus(app, message):
 ๏ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀs ➠ {premium_acc} 
 ๏ ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ➠ {timelog} 
 
-๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐ **""")
+๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠  [˹𝙳𝙷𝙿𝚁˼](https://t.me/OWNER_DHPR) **""")
     else:
         sent_message = await message.reply_text("✦ ONLY ADMINS CAN USE THIS !")
         await sleep(5)
