@@ -19,7 +19,7 @@ async def chat_gpt(bot, message):
             )
         else:
             a = message.text.split(' ', 1)[1]
-            response = requests.get(f'https://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')
+            response = requests.get(f'https://chatgpt.apinepdev.workers.dev/?question={a}')
 
             try:
                 # Check if "results" key is present in the JSON response
