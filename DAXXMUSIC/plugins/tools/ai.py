@@ -6,17 +6,6 @@ from pyrogram.enums import ChatAction, ParseMode
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton 
 
-BUTTON = InlineKeyboardMarkup(
-       [
-              [
-                     InlineKeyboardButton(
-                            text=f"〆 ᴄʟᴏsᴇ 〆",
-                            callback_data="close",
-                    )
-              ]
-       ]
-)              
-
 @app.on_message(filters.command(["chatgpt","ai","ask","gpt"],  prefixes=["+", ".", "/", "", "$","&"]))
 async def zzchat_gpt(bot, message):
     try:
