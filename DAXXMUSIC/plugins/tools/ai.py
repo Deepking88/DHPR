@@ -38,8 +38,7 @@ async def zzchat_gpt(bot, message):
                     end_time = time.time()
                     telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ms"
                     await message.reply_text(
-                        f" {x}  
-                     ✦ ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➠  [˹𝙳𝙷𝙿𝚁˼](https://t.me/FONT_CHANNEL_01)",
+                        f" {x}  \n\n✦ ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➠  [˹𝙳𝙷𝙿𝚁˼](https://t.me/FONT_CHANNEL_01)",
                         parse_mode=ParseMode.MARKDOWN,
                         reply_markup=BUTTON
                     )
